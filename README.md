@@ -1,6 +1,8 @@
 # forms-to-spotify
 
-Automatically add Google Forms responses to a Spotify playlist
+Get responses to a Google Forms question, search for the song on Spotify, then add the found song to a playlist!
+
+Useful for song requests, e.g. for a school prom, party or special event! 
 
 ## Setup
 
