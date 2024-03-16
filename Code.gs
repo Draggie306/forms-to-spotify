@@ -1,5 +1,5 @@
-const CLIENT_ID = "YOUR_CLIENT_ID";         // Your Spotify App"s client ID, go to https://developer.spotify.com/dashboard
-const CLIENT_SECRET = "YOUR_CLIENT_SECRET"; // Your Spotify App"s client secret, again on the same page
+const CLIENT_ID = "YOUR_CLIENT_ID";         // Your Spotify App's client ID, go to https://developer.spotify.com/dashboard
+const CLIENT_SECRET = "YOUR_CLIENT_SECRET"; // Your Spotify App's client secret, again on the same page
 const PLAYLIST_ID = "YOUR_PLAYLIST_ID";     // The target playlist ID to add tracks to
 const REFRESH_TOKEN = "YOUR_REFRESH_TOKEN"; // Read the README to learn how to get this
 
@@ -90,13 +90,13 @@ function processSongRequests() {
         fails += 1
       }
       else if (row[2]) {
-        console.log("[skip] Skipping row " +i + " as it has been found already!")
+        console.log("[skip] Skipping row " + i + " as it has been found already!")
         skips += 1
       }
     }
   }
 
-  // Console logs will be visible when running from the Apps Script editor only
+  // Console logs will only be visible when running from the Apps Script editor
   console.log(`Execution completed\nIterations: ${attempts}\nSkips: ${skips}\nAdded: ${added}\nFails: ${fails}`);
 }
 
